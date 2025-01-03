@@ -34,7 +34,7 @@ jobs:
     
     # Docker Build Step (Add this below)
     - name: Build Docker Image
-      run: docker build -t react-docker-app .
+      run: docker build -t 27priyanshi/react-docker-app:latest . 
 
   deploy:
     runs-on: ubuntu-latest
